@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      input {
+        display: block;
+      }
+      input:focus {
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <form method="POST" action="https://formspree.io/avandegu@umich.edu">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="_name" value="Andrew Vande Guchte">
+      <!-- Below only works if the label and input field are right next to each other -->
+      <label> Email: <input type=”email" id="email" name="_email" placeholder='email here'></label>
+      <label for = "dob">DOB:</label>
+      <input type="date" id="dob" name="_dob" value="">
+      <label for="color">Favorite Color:</label>
+      <input type="color" id="color" name="_color" value="">
+      <input type="submit" value="Click me, friend!">
+
+    </form>
+  </body>
+</html>
